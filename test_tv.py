@@ -28,7 +28,7 @@ if tv_1.status:
 
 # Asks if the user wants to set a volume
     try:
-        volume = int(input("Enter the Volume level (1-7)"))
+        volume = int(input("Enter the Volume level (1-7): "))
 #    call the method to set a volume to this tv
         tv_1.set_volume(volume)
     except ValueError:
@@ -38,7 +38,7 @@ if tv_1.status:
         
 # Asks if the user wants to increase the channel number by 1
     try:
-        if input("Do you want to increase the channel number? (y/n)").lower() == "y":
+        if input("Do you want to increase the channel number? (y/n): ").lower() == "y":
 #    call the method to increases the channel by 1
             tv_1.channel_up()
     except ValueError:
@@ -46,7 +46,7 @@ if tv_1.status:
         
 # Asks if the user wants to decrease the channel number by 1
     try:
-        if input("Do you want to decrease the channel number? (y/n)").lower() == "y":
+        if input("Do you want to decrease the channel number? (y/n): ").lower() == "y":
 #    call the method to decrease the channel by 1
             tv_1.channel_down()
     except ValueError:
@@ -54,7 +54,7 @@ if tv_1.status:
         
 # Asks if the user wants to increase the volume level by 1
     try:
-        if input("Do you want to increase the volume level? (y/n)").lower() == "y":
+        if input("Do you want to increase the volume level? (y/n): ").lower() == "y":
 #    call the method to increases the volume level by 1
             tv_1.volume_up()
     except ValueError:
@@ -62,7 +62,7 @@ if tv_1.status:
         
 # Asks if the user wants to decrease the volume level by 1 
     try:
-        if input("Do you want to decrease the volume level? (y/n)").lower() == "y":
+        if input("Do you want to decrease the volume level? (y/n): ").lower() == "y":
 #    call the method to decrease the volume level by 1 
             tv_1.volume_down()
     except ValueError:
@@ -94,7 +94,7 @@ if tv_2.status:
 
 # Asks if the user wants to set a volume
     try:
-        volume = int(input("Enter the Volume level (1-7)"))
+        volume = int(input("Enter the Volume level (1-7): "))
 #    call the method to set a volume to this tv
         tv_2.set_volume(volume)
     except ValueError:
@@ -104,7 +104,7 @@ if tv_2.status:
 
 # Asks if the user wants to increase the channel number by 1
     try:
-        if input("Do you want to increase the channel number? (y/n)").lower() == "y":
+        if input("Do you want to increase the channel number? (y/n): ").lower() == "y":
 #    call the method to increases the channel by 1
             tv_2.channel_up()
     except ValueError:
@@ -112,7 +112,7 @@ if tv_2.status:
         
 # Asks if the user wants to decrease the channel number by 1
     try:
-        if input("Do you want to decrease the channel number? (y/n)").lower() == "y":
+        if input("Do you want to decrease the channel number? (y/n): ").lower() == "y":
 #    call the method to decrease the channel by 1
             tv_2.channel_down()
     except ValueError:
@@ -120,7 +120,7 @@ if tv_2.status:
         
 # Asks if the user wants to increase the volume level by 1
     try:
-        if input("Do you want to increase the volume level? (y/n)").lower() == "y":
+        if input("Do you want to increase the volume level? (y/n): ").lower() == "y":
 #    call the method to increases the volume level by 1
             tv_2.volume_up()
     except ValueError:
@@ -128,7 +128,7 @@ if tv_2.status:
         
 # Asks if the user wants to decrease the volume level by 1 
     try:
-        if input("Do you want to decrease the volume level? (y/n)").lower() == "y":
+        if input("Do you want to decrease the volume level? (y/n): ").lower() == "y":
 #    call the method to decrease the volume level by 1 
             tv_2.volume_down()
     except ValueError:

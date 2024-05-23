@@ -11,12 +11,8 @@ if tv_status != "y":
 else:
     tv_status = True
     tv_1.turn_on(tv_status)
-# Asks if the user wants to return the channel
-#    call the method to return the channel to this tv
 # Asks if the user wants to set a channel
 #    call the method to set a channel to this tv
-# Asks if the user wants to get the volume
-#    call the method to get the volume to this tv
 # Asks if the user wants to set a volume
 #    call the method to set a volume to this tv
 # Asks if the user wants to increase the channel number by 1
@@ -38,12 +34,8 @@ if tv_status != "y":
 else:
     tv_status = True
     tv_2.turn_on(tv_status)
-# Asks if the user wants to return the channel
-#    call the method to return the channel to this tv
 # Asks if the user wants to set a channel
 #    call the method to set a channel to this tv
-# Asks if the user wants to get the volume
-#    call the method to get the volume to this tv
 # Asks if the user wants to set a volume
 #    call the method to set a volume to this tv
 # Asks if the user wants to increase the channel number by 1

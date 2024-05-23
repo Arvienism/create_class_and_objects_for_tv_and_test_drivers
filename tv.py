@@ -8,11 +8,11 @@ class TV:
 #   create a method to turn "on" the tv
     def turn_on(self):
         self.status = True
-        print(self.status + "The TV is on")
+        print("The TV is on")
 #   create a method to turn "off" the tv
     def turn_off(self):
         self.status = False
-        print(self.status + "The TV is off")
+        print("The TV is off")
 #   create a method to return the channel to this tv
     def get_channel(self):
         return self.channel

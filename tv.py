@@ -6,7 +6,11 @@ class TV:
         self.channel = channel
         self.volume = volume
 #   create a method to turn "on" the tv
+    def turn_on(self):
+        print(self.status + "The TV is on")
 #   create a method to turn "off" the tv
+    def turn_off(self):
+        print(self.status + "The TV is off")
 #   create a method to return the channel to this tv
 #   create a method to set a channel to this tv
 #   create a method to getting the volume to this tv

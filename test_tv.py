@@ -20,7 +20,9 @@ channel = int(input("Enter the channel (1-120): "))
 tv_1.set_channel(channel)
 
 # Asks if the user wants to set a volume
+volume = int(input("Enter the Volume level (1-7)"))
 #    call the method to set a volume to this tv
+tv_1.set_volume(volume)
 
 # Asks if the user wants to increase the channel number by 1
 #    call the method to increases the channel by 1
@@ -53,7 +55,9 @@ channel = int(input("Enter the channel (1-120): "))
 tv_2.set_channel(channel)
 
 # Asks if the user wants to set a volume
+volume = int(input("Enter the Volume level (1-7)"))
 #    call the method to set a volume to this tv
+tv_2.set_volume(volume)
 
 # Asks if the user wants to increase the channel number by 1
 #    call the method to increases the channel by 1

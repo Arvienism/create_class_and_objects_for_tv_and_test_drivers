@@ -5,7 +5,7 @@ from tv import TV
 tv_1 = TV()
 
 # Asks if the user wants to turn on the tv
-tv_status = input("Do you want to turn on the TV? (y/n): ").lower()
+tv_status = input("Do you want to turn on the TV1? (y/n): ").lower()
 if tv_status == "y":
     tv_1.turn_on()
 else:
@@ -46,7 +46,7 @@ if tv_1.status:
 tv_2 = TV()
 
 # Asks if the user wants to turn on the tv
-tv_status = input("Do you want to turn on the TV? (y/n): ").lower()
+tv_status = input("Do you want to turn on the TV2? (y/n): ").lower()
 if tv_status == "y":
     tv_2.turn_on()
 else:

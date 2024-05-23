@@ -8,9 +8,6 @@ tv_status = input("Do you want to turn on the TV? (y/n): ").lower()
 if tv_status != "y":
     tv_status = False
     tv_1.turn_on(tv_status)
-#    call the method to turn "on" the tv
-# Asks if the user wants to turn off the tv
-#    call the method to turn "off" the tv
 # Asks if the user wants to return the channel
 #    call the method to return the channel to this tv
 # Asks if the user wants to set a channel
@@ -35,9 +32,6 @@ tv_status = input("Do you want to turn on the TV? (y/n): ").lower()
 if tv_status != "y":
     tv_status = False
     tv_2.turn_on(tv_status)
-#    call the method to turn "on" the tv
-# Asks if the user wants to turn off the tv
-#    call the method to turn "off" the tv
 # Asks if the user wants to return the channel
 #    call the method to return the channel to this tv
 # Asks if the user wants to set a channel

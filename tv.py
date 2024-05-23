@@ -1,7 +1,7 @@
 # create a class name tv
 class TV:
 #   create a constructor and the parameters
-    def __init__(self, channel=1, volume=1) -> None:
+    def __init__(self, channel=0, volume=0) -> None:
         self.status = False
         self.channel = channel
         self.volume = volume

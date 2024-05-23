@@ -84,5 +84,5 @@ if tv_2.status:
         tv_2.volume_down()
 
 # Display the tv1 and tv2
-print(f"tv1's channel is {tv_1.get_channel} volume level is {tv_1.get_volume}" + '\n' +
-      f"tv2's channel is {tv_2.get_channel} volume level is {tv_2.get_volume}")
+print(f"tv1's channel is {tv_1.get_channel()} volume level is {tv_1.get_volume()}" + '\n' +
+      f"tv2's channel is {tv_2.get_channel()} volume level is {tv_2.get_volume()}")

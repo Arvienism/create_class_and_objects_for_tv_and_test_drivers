@@ -86,3 +86,5 @@ tv_2.volume_up(increase_volume)
 decrease_volume = input("Do you want to decrease the volume level? (y/n)").lower()
 #    call the method to decrease the volume level by 1 
 tv_2.volume_down(decrease_volume)
+
+# Display the tv1 and tv2

@@ -88,3 +88,5 @@ decrease_volume = input("Do you want to decrease the volume level? (y/n)").lower
 tv_2.volume_down(decrease_volume)
 
 # Display the tv1 and tv2
+print(f"tv1's channel is {tv_1.get_channel} volume level is {tv_1.get_volume}" + '\n' +
+      f"tv2's channel is {tv_2.get_channel} volume level is {tv_2.get_volume}")

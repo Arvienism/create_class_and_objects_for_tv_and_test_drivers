@@ -38,33 +38,45 @@ if tv_1.status:
         
 # Asks if the user wants to increase the channel number by 1
     try:
-        if input("Do you want to increase the channel number? (y/n): ").lower() == "y":
+        while True:
+            if input("Do you want to increase the channel number? (y/n): ").lower() == "y":
 #    call the method to increases the channel by 1
-            tv_1.channel_up()
+                tv_1.channel_up()
+            else:
+                break
     except ValueError:
         print("Sorry! wrong input")
         
 # Asks if the user wants to decrease the channel number by 1
     try:
-        if input("Do you want to decrease the channel number? (y/n): ").lower() == "y":
+        while True:
+            if input("Do you want to decrease the channel number? (y/n): ").lower() == "y":
 #    call the method to decrease the channel by 1
-            tv_1.channel_down()
+                tv_1.channel_down()
+            else:
+                break
     except ValueError:
         print("Sorry! wrong input")
         
 # Asks if the user wants to increase the volume level by 1
     try:
-        if input("Do you want to increase the volume level? (y/n): ").lower() == "y":
+        while True:
+            if input("Do you want to increase the volume level? (y/n): ").lower() == "y":
 #    call the method to increases the volume level by 1
-            tv_1.volume_up()
+                tv_1.volume_up()
+            else:
+                break
     except ValueError:
         print("Sorry! wrong input")
         
 # Asks if the user wants to decrease the volume level by 1 
     try:
-        if input("Do you want to decrease the volume level? (y/n): ").lower() == "y":
+        while True:
+            if input("Do you want to decrease the volume level? (y/n): ").lower() == "y":
 #    call the method to decrease the volume level by 1 
-            tv_1.volume_down()
+                tv_1.volume_down()
+            else:
+                break
     except ValueError:
         print("Sorry! wrong input")
         
@@ -104,33 +116,45 @@ if tv_2.status:
 
 # Asks if the user wants to increase the channel number by 1
     try:
-        if input("Do you want to increase the channel number? (y/n): ").lower() == "y":
+        while True:
+            if input("Do you want to increase the channel number? (y/n): ").lower() == "y":
 #    call the method to increases the channel by 1
-            tv_2.channel_up()
+                tv_2.channel_up()
+            else:
+                break
     except ValueError:
         print("Sorry! wrong input")
         
 # Asks if the user wants to decrease the channel number by 1
     try:
-        if input("Do you want to decrease the channel number? (y/n): ").lower() == "y":
+        while True:
+            if input("Do you want to decrease the channel number? (y/n): ").lower() == "y":
 #    call the method to decrease the channel by 1
-            tv_2.channel_down()
+                tv_2.channel_down()
+            else: 
+                break
     except ValueError:
         print("Sorry! wrong input")
         
 # Asks if the user wants to increase the volume level by 1
     try:
-        if input("Do you want to increase the volume level? (y/n): ").lower() == "y":
+        while True:
+            if input("Do you want to increase the volume level? (y/n): ").lower() == "y":
 #    call the method to increases the volume level by 1
-            tv_2.volume_up()
+                tv_2.volume_up()
+            else:
+                break
     except ValueError:
         print("Sorry! wrong input")
         
 # Asks if the user wants to decrease the volume level by 1 
     try:
-        if input("Do you want to decrease the volume level? (y/n): ").lower() == "y":
+        while True:
+            if input("Do you want to decrease the volume level? (y/n): ").lower() == "y":
 #    call the method to decrease the volume level by 1 
-            tv_2.volume_down()
+                tv_2.volume_down()
+            else:
+                break
     except ValueError:
         print("Sorry! wrong input")
         

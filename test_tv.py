@@ -159,7 +159,16 @@ if tv_2.status:
         print("Sorry! wrong input")
         
 # Display the tv1 and tv2
-print("\n" + "*" * 42)
-print(f"*  tv1's channel is {tv_1.get_channel()} volume level is {tv_1.get_volume()}  *")
-print(f"*  tv2's channel is {tv_2.get_channel()} volume level is {tv_2.get_volume()}  *")
-print("*" * 42)
+def display_boxed_message(tv_1, tv_2):
+    """Function to display the TV settings in a boxed format"""
+    tv1_message = f"tv1's channel is {tv_1.get_channel()} volume level is {tv_1.get_volume()}"
+    tv2_message = f"tv2's channel is {tv_2.get_channel()} volume level is {tv_2.get_volume()}"
+    longest_message = max(len(tv1_message), len(tv2_message))
+    box_width = longest_message + 4  # Padding for the box
+
+    print("\n" + "*" * box_width)
+    print(f"* {tv1_message}{' ' * (box_width - len(tv1_message) - 3)}*")
+    print(f"* {tv2_message}{' ' * (box_width - len(tv2_message) - 3)}*")
+    print("*" * box_width)
+
+display_boxed_message(tv_1, tv_2)

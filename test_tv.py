@@ -35,10 +35,14 @@ decrease_channel = input("Do you want to decrease the channel number? (y/n)").lo
 tv_1.channel_down(decrease_channel)
 
 # Asks if the user wants to increase the volume level by 1
+increase_volume = input("Do you want to increase the volume level? (y/n)").lower()
 #    call the method to increases the volume level by 1
+tv_1.volume_up(increase_volume)
 
 # Asks if the user wants to decrease the volume level by 1 
+decrease_volume = input("Do you want to decrease the volume level? (y/n)").lower()
 #    call the method to decrease the volume level by 1 
+tv_1.volume_down(decrease_volume)
 
 # create an object name tv_2
 tv_2 = TV()
@@ -74,7 +78,11 @@ decrease_channel = input("Do you want to decrease the channel number? (y/n)").lo
 tv_2.channel_down(decrease_channel)
 
 # Asks if the user wants to increase the volume level by 1
+increase_volume = input("Do you want to increase the volume level? (y/n)").lower()
 #    call the method to increases the volume level by 1
+tv_2.volume_up(increase_volume)
 
 # Asks if the user wants to decrease the volume level by 1 
+decrease_volume = input("Do you want to decrease the volume level? (y/n)").lower()
 #    call the method to decrease the volume level by 1 
+tv_2.volume_down(decrease_volume)

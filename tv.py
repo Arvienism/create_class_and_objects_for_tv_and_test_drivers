@@ -2,14 +2,16 @@
 class TV:
 #   create a constructor and the parameters
     def __init__(self, status, channel=0, volume=0) -> None:
-        self.status = status
+        self.status = True
         self.channel = channel
         self.volume = volume
 #   create a method to turn "on" the tv
     def turn_on(self):
+        self.status = True
         print(self.status + "The TV is on")
 #   create a method to turn "off" the tv
     def turn_off(self):
+        self.status = False
         print(self.status + "The TV is off")
 #   create a method to return the channel to this tv
 #   create a method to set a channel to this tv

@@ -48,7 +48,9 @@ else:
     tv_2.turn_on(tv_status)
     
 # Asks if the user wants to set a channel
+channel = int(input("Enter the channel (1-120): "))
 #    call the method to set a channel to this tv
+tv_2.set_channel(channel)
 
 # Asks if the user wants to set a volume
 #    call the method to set a volume to this tv

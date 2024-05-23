@@ -6,7 +6,7 @@
 #   create a method to set a channel to this tv
 #   create a method to getting the volume to this tv
 #   create a method to set a volume to this tv 
-#   create a method to increases the channel number by 1
-#   create a method to decreases the channnel number by 1
-#   increases the volume level by 1
-#   decreases the volume level by 1
+#   create a method to increase the channel number by 1
+#   create a method to decrease the channnel number by 1
+#   create a method to increase the volume level by 1
+#   create a method to decrease the volume level by 1

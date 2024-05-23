@@ -159,5 +159,7 @@ if tv_2.status:
         print("Sorry! wrong input")
         
 # Display the tv1 and tv2
-print(f"\ntv1's channel is {tv_1.get_channel()} volume level is {tv_1.get_volume()}")
-print(f"tv2's channel is {tv_2.get_channel()} volume level is {tv_2.get_volume()}")
+print("\n" + "*" * 42)
+print(f"*  tv1's channel is {tv_1.get_channel()} volume level is {tv_1.get_volume()}  *")
+print(f"*  tv2's channel is {tv_2.get_channel()} volume level is {tv_2.get_volume()}  *")
+print("*" * 42)

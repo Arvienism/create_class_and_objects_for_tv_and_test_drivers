@@ -1,6 +1,13 @@
 # import tv.py to this Python file
+from tv import TV
 # create an object name tv_1
+tv_1 = TV()
 # Asks if the user wants to turn on the tv
+tv_1.turn_on()
+tv_status = input("Do you want to turn on the TV? (y/n): ").lower()
+if tv_status != "y":
+    tv_status = False
+    tv_1.turn_on(tv_status)
 #    call the method to turn "on" the tv
 # Asks if the user wants to turn off the tv
 #    call the method to turn "off" the tv
@@ -21,7 +28,13 @@
 # Asks if the user wants to decrease the volume level by 1 
 #    call the method to decrease the volume level by 1 
 # create an object name tv_2
+tv_2 = TV()
 # Asks if the user wants to turn on the tv
+tv_2.turn_on()
+tv_status = input("Do you want to turn on the TV? (y/n): ").lower()
+if tv_status != "y":
+    tv_status = False
+    tv_2.turn_on(tv_status)
 #    call the method to turn "on" the tv
 # Asks if the user wants to turn off the tv
 #    call the method to turn "off" the tv

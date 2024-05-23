@@ -5,14 +5,11 @@ from tv import TV
 tv_1 = TV()
 
 # Asks if the user wants to turn on the tv
-tv_1.turn_on()
 tv_status = input("Do you want to turn on the TV? (y/n): ").lower()
-if tv_status != "y":
-    tv_status = False
-    tv_1.turn_off(tv_status)
+if tv_status == "y":
+    tv_1.turn_on()
 else:
-    tv_status = True
-    tv_1.turn_on(tv_status)
+    tv_1.turn_off()
     
 # Asks if the user wants to set a channel
 channel = int(input("Enter the channel (1-120): "))
@@ -48,14 +45,11 @@ tv_1.volume_down(decrease_volume)
 tv_2 = TV()
 
 # Asks if the user wants to turn on the tv
-tv_2.turn_on()
 tv_status = input("Do you want to turn on the TV? (y/n): ").lower()
-if tv_status != "y":
-    tv_status = False
-    tv_2.turn_off(tv_status)
+if tv_status == "y":
+    tv_2.turn_on()
 else:
-    tv_status = True
-    tv_2.turn_on(tv_status)
+    tv_2.turn_off()
     
 # Asks if the user wants to set a channel
 channel = int(input("Enter the channel (1-120): "))
